@@ -74,14 +74,14 @@
         android:allowClearUserData="true"
         android:description="@string/app_description"
         android:icon="@drawable/ic_launcher"
-        android:label="FPlay"
+        android:label="MBLS"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
         <activity
             android:name="br.com.carlosrafaelgn.fplay.activity.ActivityHost"
             android:clearTaskOnLaunch="true"
             android:configChanges="orientation|screenSize|screenLayout|smallestScreenSize"
-            android:label="FPlay"
+            android:label="MBLS"
             android:launchMode="singleTask"
             android:multiprocess="false"
             android:screenOrientation="unspecified"
@@ -98,7 +98,7 @@
              -->
             <intent-filter
                 android:icon="@drawable/ic_launcher"
-                android:label="FPlay"
+                android:label="MBLS"
                 android:priority="1">
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -106,7 +106,7 @@
             </intent-filter>
             <intent-filter
                 android:icon="@drawable/ic_launcher"
-                android:label="FPlay"
+                android:label="MBLS"
                 android:priority="1">
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -114,7 +114,7 @@
             </intent-filter>
             <intent-filter
                 android:icon="@drawable/ic_launcher"
-                android:label="FPlay"
+                android:label="MBLS"
                 android:priority="1">
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -122,7 +122,7 @@
             </intent-filter>
             <intent-filter
                 android:icon="@drawable/ic_launcher"
-                android:label="FPlay"
+                android:label="MBLS"
                 android:priority="1">
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -132,7 +132,7 @@
             <!-- do not include hardcoded 3GP and MP4 extensions, as they are widely used for videos -->
             <intent-filter
                 android:icon="@drawable/ic_launcher"
-                android:label="FPlay"
+                android:label="MBLS"
                 android:priority="1">
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -159,7 +159,7 @@
             </intent-filter>
             <intent-filter
                 android:icon="@drawable/ic_launcher"
-                android:label="FPlay"
+                android:label="MBLS"
                 android:priority="1">
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -214,7 +214,7 @@
 
         <receiver
             android:name="br.com.carlosrafaelgn.fplay.WidgetMain"
-            android:label="FPlay" >
+            android:label="MBLS" >
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>

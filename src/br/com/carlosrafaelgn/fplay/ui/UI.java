@@ -452,7 +452,7 @@ public final class UI implements DialogInterface.OnShowListener, Animation.Anima
 		textPaint.setTypeface(Typeface.DEFAULT);
 		textPaint.setTextAlign(Paint.Align.LEFT);
 		textPaint.setColor(color_text);
-		textPaint.measureText("FPlay");
+		textPaint.measureText("MBLS");
 		//hide the edge!!! ;)
 		//if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP)
 		//  edgeFilter = new PorterDuffColorFilter(0, PorterDuff.Mode.CLEAR);
